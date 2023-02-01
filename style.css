@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.nav{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.icone{
+    display: block;
+}
+
+header{
+    background: linear-gradient(to left, #f8cdda, #1d2b64);
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+.conteiner{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.img{
+    display: block;
+    height: 450px;
+    width: 250;
+    object-fit: cover;
+}
+
+.text{
+    width: 50%;
+    color: white;
+    
+}
+
+.text h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.text h2{
+    font-size: 23px;
+}
+
+.text a{
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.wabe {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to left,#f8cdda,#1d2b64);
+}
+
+.enlaces{
+    position: fixed;
+    display: flex;
+    top: 0%;
+    background: black;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+    background: linear-gradient(to left, #f8cdda,#1d2b64);
+}
+
+.um{
+    -webkit-clip-path: circle(0.5 at 0 0);
+    clip-path: circle(0.5% at 0 0);
+}
+
+.dois{
+    -webkit-clip-path: circle(150.9% at 0 0);
+    clip-path: circle(150.9% at 0 0);
+}
+
+
+
