@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: linear-gradient(to left,#f8cdda, #1d2b64);
+    height: auto;
+    padding: 48px;
+    width: 100%;
+}
+
+.conteiner{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.img{
+    display: block;
+    height: 450px;
+    width: 250;
+    object-fit: cover;
+}
+
+
+.text{
+    width: 50%;
+    color: white;
+}
+
+.text h1{
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+.text h2{
+    font-size: 23px;
+}
+
+.wabe {
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to left,#f8cdda,#1d2b64);
+}
+
