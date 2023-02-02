@@ -46,6 +46,19 @@ header{
     font-size: 23px;
 }
 
+.text a{
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid white;
+    width: 100px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+}
+
 .wabe {
     height: 100px;
     width: 100%;
